@@ -1,4 +1,5 @@
-*{ font-family: arial, sans-serif;
+* {
+  font-family: arial, sans-serif;
   margin: 0;
 }
 body,
@@ -15,6 +16,10 @@ body > div {
   display: flex;
 }
 #navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+#footer-container {
   padding: 2em;
   justify-content: space-evenly;
 }
@@ -38,4 +43,17 @@ body > div {
 .home {
   background-color: #494a4c;
   color: rgb(255, 255, 255);
+}
+
+.green {
+  background-color: #108217;
+  color: white;
+}
+.purple {
+  background-color: #6017a9;
+  color: white;
+}
+.yellow {
+  background-color: #b3be1c;
+  color: white;
 }
