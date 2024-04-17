@@ -6,6 +6,7 @@ export default function Nav() {
       <Link to={"/blue"}>Blue</Link>
       <Link to={"/red"}>Red</Link>
       <Link to={"/home"}>Home</Link>
+   
     </div>
   );
 }

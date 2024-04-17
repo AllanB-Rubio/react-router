@@ -6,6 +6,7 @@ import Color from "./Color";
 
 export default function MainContainer() {
   return (
+
     <div id="main-section">
       <Routes>
         <Route path="/blue" element={<Blue />} />
